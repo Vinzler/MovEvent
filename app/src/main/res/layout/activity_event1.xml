@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity1"
+    android:background="@drawable/androidback">
+
+    <TextView
+        android:id="@+id/coldplaytitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ratingBar"
+        android:layout_alignParentStart="true"
+        android:text="COLDPLAY"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="302dp"
+        android:layout_height="31dp"
+        android:layout_above="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rectangle"
+        android:paddingLeft="5dp"
+        android:text="Seats available"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="302dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/ratingBar3"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rectangle"
+        android:paddingLeft="5dp"
+        android:text="Enter seats"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/confirm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="CONFIRM" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/coldplay" />
+
+    <ImageView
+        android:id="@+id/coldplay"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/seatavailable"
+        android:layout_width="83dp"
+        android:layout_height="31dp"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6"
+        android:background="@drawable/rectangle"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview3"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_above="@+id/textView6"
+        android:layout_alignParentStart="true">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/confirm1"
+        android:layout_alignParentStart="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview1"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_above="@+id/recyclerview3"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <NumberPicker
+        android:id="@+id/np1"
+        android:layout_width="78dp"
+        android:layout_height="87dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView6">
+
+    </NumberPicker>
+
+</RelativeLayout>

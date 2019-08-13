@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "789432581256",
+    "firebase_url": "https://bookshow-ee2bf.firebaseio.com",
+    "project_id": "bookshow-ee2bf",
+    "storage_bucket": "bookshow-ee2bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789432581256:android:6c02c1cc4b56ae2d",
+        "android_client_info": {
+          "package_name": "com.newapp.bookshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789432581256-asmlq09316spfpr2hs9clvbk0i3vejbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCDhOyuYTPmczYEXShQbP83oZ0dsuhWMY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
